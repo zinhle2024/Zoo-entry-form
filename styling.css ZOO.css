@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/group-wild-animals_1308-43813.jpg?w=1060&t=st=1709633487~exp=1709634087~hmac=0d2a3c06ed94236405be0123cef3b49abc1d3b3c4e130b1abf5a16475512781c");
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: azure;
+    height: auto;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+   #result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+   }
